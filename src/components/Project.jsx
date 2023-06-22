@@ -6,7 +6,7 @@ export function Project() {
     return (
         <>
             <div className="project-container">
-                <img src='../images/cryptocurrently.png' />
+                <img src="../public/assets/cryptocurrently.png" />
                 <div className='project-info'>
                     <div className="project-header">
                         <h6 className="project-title">Crypto Currently
@@ -32,7 +32,7 @@ export function Project() {
             </div>
 
             <div className="project-container">
-                <img src='../images/projecttracker_01.png' />
+                <img src="../public/assets/projecttracker_02.png" />
                 <div className='project-info'>
                     <div className="project-header">
                         <h6 className="project-title">Project Tracker</h6>
@@ -57,7 +57,7 @@ export function Project() {
             </div>
 
             <div className="project-container">
-                <img src='../images/agency.png' />
+                <img src="../public/assets/agency.png" />
                 <div className='project-info'>
                     <div className="project-header">
                         <h6 className="project-title">Agency Website</h6>
