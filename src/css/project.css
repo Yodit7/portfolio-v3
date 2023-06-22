@@ -1,0 +1,85 @@
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(10%, 80%);
+    column-gap: 25px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid rgb(40, 116, 163);
+    padding: 0px 15px;
+    border-radius: 4px;
+    margin: 50px 0px;
+    padding: 15px 20px;
+}
+
+.project-container:hover {
+    /* transform: scale(1.025); */
+    box-shadow: 0px 0px 10px rgb(31, 32, 34);
+}
+
+.project-container img {
+    height: auto;
+    width: 500px;
+    margin: auto;
+}
+
+.project-info {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.github-icon-sm {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon a {
+    color: white;
+}
+
+.icon a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0;
+    margin: 10px 0px;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.project-fw-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.project-fw-item {
+    border: 1px solid rgb(40, 116, 163);
+    padding: 6px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.project-fw-item:hover {
+    cursor: pointer;
+}

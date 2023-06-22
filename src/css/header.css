@@ -1,0 +1,33 @@
+.header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header a {
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav li {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav li:hover {
+    transform: scale(1.1);
+    color: rgb(40, 116, 163);
+}

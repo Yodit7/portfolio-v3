@@ -1,0 +1,30 @@
+.contact-container {
+    color: white;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container h1 {
+    color: rgb(40, 116, 163);
+}
+
+.contact-container p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 250px;
+}
+
+.icon-mail a {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.icon-mail a:hover{
+    color: rgb(40, 116, 163);
+}

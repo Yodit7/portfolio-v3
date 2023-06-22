@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(10, 17, 39);
+  width: 1100px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-headline,
+.page-headline-center {
+  font-size: 28px;
+  font-weight: 300;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.page-headline-center {
+  text-align: center;
+}

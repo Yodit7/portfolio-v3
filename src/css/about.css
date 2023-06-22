@@ -1,0 +1,48 @@
+.main-container {
+    margin: 100px 0px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-title {
+    font-size: 24px;
+}
+
+.about-desc {
+    grid-row-start: 2;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.about-desc p {
+    margin: 0;
+}
+
+.about-resume {
+    grid-row-start: 2;
+}
+
+.about-resume-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.about-resume-item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.about-resume-item:nth-last-child(2){
+    align-items: first baseline;
+}
