@@ -2,10 +2,11 @@ import '../css/contact.css'
 import { FiMail } from "react-icons/fi";
 
 
-export function Contact(){
+export function Contact( {id} ){
     return (
         <>
-            <h6 className='page-headline-center'>Contact</h6>
+        <div id={id}>
+            <h6 className='page-headline-center'><a href=''>Contact</a></h6>
             <div className="contact-container">
                 <h1>Get in touch</h1>
                 <p>I’m currently looking for any new opportunities, my inbox is always open.
@@ -14,6 +15,7 @@ export function Contact(){
                     </div>
                 </p>
             </div>
+        </div>
         </>
     )
 }

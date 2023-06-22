@@ -1,10 +1,10 @@
 import '../css/about.css'
 import { FiChevronRight } from "react-icons/fi";
 
-export function About() {
+export function About( {id}) {
     return (
         <>
-            <div className="main-container" id='about-section'>
+            <div className="main-container" id={id}>
                 <p className="about-title">Hi, I'm Yodit.</p>
                 <div className="about-desc">
                     <p>Full Stack Developer.</p> 

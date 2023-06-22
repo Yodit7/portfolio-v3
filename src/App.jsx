@@ -12,12 +12,19 @@ import { Footer } from '../src/components/Footer.jsx'
 
 function App() {
 
+  const [activeSection, setActiveSection] = useState('')
+
+  const handleNavItemClick = (section) => {
+    setActiveSection(section)
+    document.getElementById(section).scrollIntoView( { behaviour: 'smooth'})
+  }
+
   return (
     <>
-      <Header />
-      <About />
-      <Projects />
-      <Contact />
+      <Header onNavItemClick={handleNavItemClick} activeSection={activeSection}/>
+      <About id="about-section"/>
+      <Projects id="projects-section"/>
+      <Contact id="contact-section"/>
       <Footer />
     </>
   )

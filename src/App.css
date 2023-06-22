@@ -5,13 +5,18 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.page-headline,
-.page-headline-center {
+.page-headline {
+  margin-top: 50px;
+}
+
+.page-headline a,
+.page-headline-center a {
   font-size: 28px;
   font-weight: 300;
   color: white;
   text-decoration: underline;
   text-underline-offset: 10px;
+  margin-top: 50px;
 }
 
 .page-headline-center {
